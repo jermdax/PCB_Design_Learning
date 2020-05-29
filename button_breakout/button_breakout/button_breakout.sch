@@ -1,0 +1,168 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5ED1D2B9
+P 5100 3600
+F 0 "J?" H 5208 3981 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 5208 3890 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5100 3600 50  0001 C CNN
+F 3 "~" H 5100 3600 50  0001 C CNN
+	1    5100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5ED3CEDC
+P 6000 3050
+F 0 "SW?" H 6000 3335 50  0000 C CNN
+F 1 "SW_Push" H 6000 3244 50  0000 C CNN
+F 2 "" H 6000 3250 50  0001 C CNN
+F 3 "~" H 6000 3250 50  0001 C CNN
+	1    6000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ED3EF05
+P 5950 3150
+F 0 "R?" H 6020 3196 50  0000 L CNN
+F 1 "R" H 6020 3105 50  0000 L CNN
+F 2 "" V 5880 3150 50  0001 C CNN
+F 3 "~" H 5950 3150 50  0001 C CNN
+	1    5950 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 3050 5800 3150
+Wire Wire Line
+	6200 3050 6200 2700
+Wire Wire Line
+	6200 2700 5600 2700
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5ED455E8
+P 6000 3950
+F 0 "SW?" H 6000 4235 50  0000 C CNN
+F 1 "SW_Push" H 6000 4144 50  0000 C CNN
+F 2 "" H 6000 4150 50  0001 C CNN
+F 3 "~" H 6000 4150 50  0001 C CNN
+	1    6000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ED455EE
+P 6000 4050
+F 0 "R?" V 5793 4050 50  0000 C CNN
+F 1 "R" V 5884 4050 50  0000 C CNN
+F 2 "" V 5930 4050 50  0001 C CNN
+F 3 "~" H 6000 4050 50  0001 C CNN
+	1    6000 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 3950 5800 4050
+Wire Wire Line
+	6200 3950 6200 3600
+Wire Wire Line
+	6200 3600 5600 3600
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5ED474A8
+P 6000 4800
+F 0 "SW?" H 6000 5085 50  0000 C CNN
+F 1 "SW_Push" H 6000 4994 50  0000 C CNN
+F 2 "" H 6000 5000 50  0001 C CNN
+F 3 "~" H 6000 5000 50  0001 C CNN
+	1    6000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ED474AE
+P 6000 4900
+F 0 "R?" V 5793 4900 50  0000 C CNN
+F 1 "R" V 5884 4900 50  0000 C CNN
+F 2 "" V 5930 4900 50  0001 C CNN
+F 3 "~" H 6000 4900 50  0001 C CNN
+	1    6000 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 4800 5800 4900
+Wire Wire Line
+	6200 4800 6200 4450
+Wire Wire Line
+	6200 4450 5600 4450
+Wire Wire Line
+	5600 2700 5600 3600
+Wire Wire Line
+	5600 3600 5600 4450
+Connection ~ 5600 3600
+Wire Wire Line
+	5600 4450 5600 5150
+Connection ~ 5600 4450
+Wire Wire Line
+	5800 3050 5450 3050
+Wire Wire Line
+	5450 3050 5450 3500
+Wire Wire Line
+	5450 3500 5300 3500
+Connection ~ 5800 3050
+Wire Wire Line
+	5800 3950 5500 3950
+Wire Wire Line
+	5500 3950 5500 3600
+Wire Wire Line
+	5500 3600 5300 3600
+Connection ~ 5800 3950
+Wire Wire Line
+	5300 3700 5400 3700
+Wire Wire Line
+	5400 3700 5400 4800
+Wire Wire Line
+	5400 4800 5800 4800
+Connection ~ 5800 4800
+Wire Wire Line
+	5600 5150 5300 5150
+Wire Wire Line
+	5300 5150 5300 3800
+Wire Wire Line
+	6100 3150 6250 3150
+Wire Wire Line
+	6250 3150 6250 2650
+Wire Wire Line
+	6250 2650 5350 2650
+Wire Wire Line
+	5350 2650 5350 3400
+Wire Wire Line
+	5350 3400 5300 3400
+Wire Wire Line
+	5800 4050 5850 4050
+Wire Wire Line
+	6150 4050 6250 4050
+Wire Wire Line
+	6250 4050 6250 3150
+Connection ~ 6250 3150
+Wire Wire Line
+	6250 4050 6250 4900
+Connection ~ 6250 4050
+Wire Wire Line
+	5800 4900 5850 4900
+Wire Wire Line
+	6150 4900 6250 4900
+$EndSCHEMATC
