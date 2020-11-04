@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CapTouch2Finger
+#
+DEF CapTouch2Finger U 0 40 Y Y 1 F N
+F0 "U" 200 -200 50 H V C CNN
+F1 "CapTouch2Finger" 0 50 50 H V C CNN
+F2 "CapTouch2FingerSensor:CapTouch2Finger" 250 -450 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+DRAW
+S -200 0 600 -400 0 1 0 N
+X Palm 1 -300 -50 100 R 50 50 1 1 B
+X MiddleBase 2 -300 -150 100 R 50 50 1 1 B
+X MiddleMiddle 3 -300 -250 100 R 50 50 1 1 B
+X MiddleTip 4 -300 -350 100 R 50 50 1 1 B
+X IndexTip 5 700 -350 100 L 50 50 1 1 B
+X IndexMiddle 6 700 -250 100 L 50 50 1 1 B
+X IndexBase 7 700 -150 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library

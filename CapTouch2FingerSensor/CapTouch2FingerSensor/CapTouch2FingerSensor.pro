@@ -1,4 +1,4 @@
-update=28/10/2020 20:07:46
+update=01/11/2020 19:05:15
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=AD7147-PACPZ1500R7.net
+LastNetListRead=CapTouch2FingerSensor.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -42,6 +42,8 @@ TrackWidth1=0.25
 TrackWidth2=0.2
 ViaDiameter1=0.8
 ViaDrill1=0.4
+ViaDiameter2=0.6
+ViaDrill2=0.3
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
