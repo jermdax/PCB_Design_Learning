@@ -5,7 +5,7 @@ Front:
 
 ![alt text][front]
 
-[front]: front.png "Title Text B Front"
+[front]: front.png "PCB Front"
 
 Back:
 

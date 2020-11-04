@@ -5,10 +5,10 @@ Front:
 
 ![alt text][front]
 
-[front]: front.png "PCB Front"
+[front]: icm20948_breakout/front.png "PCB Front"
 
 Back:
 
 ![alt text][back]
 
-[back]: back.png "PCB Back"
+[back]: icm20948_breakout/back.png "PCB Back"
