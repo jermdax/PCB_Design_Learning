@@ -76,8 +76,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 3900 4450 3900
 Wire Wire Line
-	4450 4000 5000 4000
-Wire Wire Line
 	5000 4100 4450 4100
 Wire Wire Line
 	6700 3900 7100 3900
@@ -114,12 +112,12 @@ Wire Wire Line
 	6950 1900 7100 1900
 Text GLabel 6700 3700 0    39   Input ~ 0
 GND
-Text GLabel 4600 3700 2    39   Input ~ 0
+Text GLabel 4600 4200 2    39   Input ~ 0
 VDD
 Wire Wire Line
 	6700 3700 7100 3700
 Wire Wire Line
-	4450 3700 4600 3700
+	4450 4200 4600 4200
 Text GLabel 5900 2850 2    39   Input ~ 0
 GND
 Text GLabel 5050 2850 0    39   Input ~ 0
@@ -150,17 +148,17 @@ Wire Wire Line
 Connection ~ 5500 2850
 Wire Wire Line
 	5500 2850 5600 2850
-Text GLabel 4600 3600 2    39   Input ~ 0
+Text GLabel 4600 3700 2    39   Input ~ 0
 VOUT
 $Comp
 L Connector:Conn_01x06_Male J1
 U 1 1 6083E237
-P 4250 3800
-F 0 "J1" H 4358 4181 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 4358 4090 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4250 3800 50  0001 C CNN
-F 3 "~" H 4250 3800 50  0001 C CNN
-	1    4250 3800
+P 4250 3900
+F 0 "J1" H 4358 4281 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 4358 4190 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4250 3900 50  0001 C CNN
+F 3 "~" H 4250 3900 50  0001 C CNN
+	1    4250 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -175,5 +173,7 @@ F 3 "~" H 7300 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4450 3600 4600 3600
+	4450 3700 4600 3700
+Wire Wire Line
+	4450 4000 5000 4000
 $EndSCHEMATC
